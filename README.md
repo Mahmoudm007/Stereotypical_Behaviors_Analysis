@@ -19,8 +19,8 @@ The project integrates several key components, including object detection, featu
    - **Definition**: Object detection is a computer vision technique used to locate and classify objects within an image or video frame. Detectron2 is a state-of-the-art framework developed by Facebook AI Research (FAIR) for object detection and segmentation tasks.
    - **Purpose**: Detectron2 is used in this pipeline to detect and isolate children from other objects or individuals within video frames, ensuring that the analysis focuses on the relevant subjects.
 
-   ![Object Detection Visualization](assets/66535560-d3422200-eace-11e9-9123-5535d469db19.png.crdownload)  
-   *Figure 2: Object detection results highlighting detected children within a frame.*
+![Object Detection Visualization](assets/dect.png)  
+*Figure 2: Object detection results highlighting detected children within a frame.*
 
 ### 3. **Child Cropping**
    - **Definition**: Cropping refers to the process of removing or cutting out parts of an image or frame to focus on a specific region of interest. In this context, it means isolating the detected children in each frame.
